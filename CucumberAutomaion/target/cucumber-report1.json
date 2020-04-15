@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate create user multiple field11",
+        "description": "",
+        "id": "create-account-of-facebook1;validate-create-user-multiple-field11",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20840522500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "DatatableFormat.User_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1999726600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters following data",
+            "match": {
+              "location": "DatatableFormat.user_enters_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Usename",
+                  "User surname",
+                  "Mobile"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Hanks",
+                  "1234"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Jack",
+                  "Daniel",
+                  "5678"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1068076400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close browser",
+            "match": {
+              "location": "DatatableFormat.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook1",
+    "description": "As a user you need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook1",
+    "keyword": "Feature",
+    "uri": "DataTableScenarioFF.feature"
+  }
+]

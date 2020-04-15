@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ScenarioOutline.RunScenarioOutlineTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.576 sec
